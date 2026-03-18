@@ -17,7 +17,7 @@ export type PersonalDataTypes = {
 
 export const personalData: PersonalDataTypes = {
   name: "Ayush Nandoriya",
-  profile: '/profile.png',
+  profile: '/media/images/profile.jpeg',
   designation: "Frontend Developer",
   description: "My name is Ayush Nandoriya, and I am a passionate Frontend Developer. I love building modern, responsive, and user-friendly web applications using JavaScript, React, and Next.js. I am a quick learner with a strong interest in exploring new technologies and solving real-world problems through code. I am always open to learning, collaborating, and taking on new challenges.",
   email: 'ayushnandoriya@gmail.com',

@@ -1,11 +1,15 @@
-import { personalData } from "@/configs/personal-data";
 import HeroSection from "@/components/Hero";
-import Icon from "@/components/Icon";
+import AboutSection from "@/components/About";
+import Experience from "@/components/Experience";
 
-export default async function Home() {
+const Home = () => {
   return (
     <>
       <HeroSection />
+      <AboutSection />
+      <Experience />
     </>
   );
-}
+};
+
+export default Home;
